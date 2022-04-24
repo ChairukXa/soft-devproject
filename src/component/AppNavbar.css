@@ -18,7 +18,7 @@ a{
 .logo{
     padding-left: 15px;
     color: white;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .Nav-Links{
@@ -38,7 +38,7 @@ a{
 .Nav-Links li{
     list-style: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 15px;
     margin: 0 10px;
     cursor: pointer;
@@ -60,4 +60,45 @@ a{
     color: white;
     text-align: center;
     font-size: 35px;
+}
+
+button{
+    display: flex;
+    justify-content: left;
+    border: none;
+    background-color: rgb(54, 54, 54);
+    top: 15px;
+    font-size: 20px;
+}
+
+.Moblie_menu_icon{
+    display: none;
+}
+
+@media (max-width:1250px){
+    .logo{
+        display: flex;
+        position: absolute;
+        height: 5px;
+        left: 35px;
+    }
+    .Nav-Links{
+        display: none;
+    }
+    .Nav-Links-moblie{
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 10%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background-color: rgb(54, 54, 54);
+    }
+    .Moblie_menu_icon{
+        position: absolute;
+        display: block;
+        height: 5px;
+        right: 35px;
+    }
 }
