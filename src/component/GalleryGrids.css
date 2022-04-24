@@ -1,0 +1,20 @@
+.galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.galleryGrid img{
+    width: 160px;
+    height: 240px;
+}
+
+img {
+    padding: 10px;
+}

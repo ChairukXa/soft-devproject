@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Prompt:wght@200;400;700&display=swap');
+
+.Arch-Links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    display: block;
+    width: 100%;
+}

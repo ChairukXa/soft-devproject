@@ -1,0 +1,19 @@
+.Field {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 125px;
+}
+.Gallery{
+    border: 2px white solid;
+    width: 90%;
+    background-color: rgba(66, 66, 66, 0.436);
+}
+.MenuLink{
+    padding: 10px;
+    display: flex;
+}
+
+.MenuLink li{
+    font-size: 16px;
+}

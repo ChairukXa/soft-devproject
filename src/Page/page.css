@@ -1,0 +1,62 @@
+.Archetype{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.PageHeader h1{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.Arch-Links li{
+    list-style: none;
+}
+.searchPage{
+    padding: 15px;
+    text-align: center;
+}
+input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 75%;
+    font-size: 20px;
+}
+
+.HomePageHeader{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: 55%;
+}
+
+.picContainer01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.picContainer01 img{
+    width: 600px;
+    height: 300px;
+}
+
+.pic_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pic_grid img{
+    width: 450px;
+    height: 250px;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

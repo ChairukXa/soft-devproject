@@ -1,0 +1,62 @@
+*{
+    color: white;
+}
+.Fild{
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.ArchetypeHeader{
+    padding-top: 10px;
+    padding-left: 15px; 
+}
+.title1{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.title2{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.title3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.Design{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-right: 35px;
+}
+
+.Design img{
+    width: 250px;
+    height: 250px;
+    border: solid white;
+}
+.Design div{
+    font-size: 16px;
+}
+.Design li{
+    font-size: 16px;
+    text-align: left;
+}
+.Playstyle{
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-right: 35px;
+}
+
+.List_Card{
+    padding-left: 25px;
+    justify-items: center;
+}
+.List_Card li{
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    background-color: rgba(240, 255, 255, 0.175);
+}

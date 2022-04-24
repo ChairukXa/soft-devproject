@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Prompt:wght@200;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Navbar{
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.logo{
+    padding-left: 15px;
+    color: white;
+    font-size: 35px;
+}
+
+.Nav-Links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.contrainer{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-Links li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Nav-Links Link{
+    text-decoration: none;
+}
+
+
+.Word{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Word h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Prompt:wght@200;400;700&display=swap');
+.Wallpaler{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(41, 41, 41, 0.511);
+    border: rgb(0, 0, 0) solid 3px;
+}
+h4{
+    padding-bottom: 15px;
+}
+.Cardart{
+    padding-top: 20px;
+    width: 35%;
+}
+
+.Cardart img{
+    display: block;
+    width: 400px;
+    height: 550px;
+    padding: 15px;
+}
+.Carddetail{
+    display:flexbox;
+    justify-content:flex-start;
+    padding: 30px;
+    width: 75%;
+    text-align: left;
+}
+
+.En_Carddetail{
+    height: 50%;
+    background-color: grey;
+    padding: 15px;
+}
+
+.En_namecard{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.En_attribute_type_typecard{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.En_level_atk_def{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.En_ReleaseIn_StatusCard{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.En_textcard{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.Th_Carddetail{
+    height: 50%;
+    background-color: grey;
+    padding: 15px;
+}
+
+.Th_namecard{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.Th_attribute_type_typecard{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.Th_level_atk_def{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.Th_ReleaseIn_StatusCard{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.Th_textcard{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.En_typecard{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.Th_typecard{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
