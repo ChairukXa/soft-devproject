@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
     <AppNavbar />
     <Switch>
-        <Route path='/' page={Home} exact><Home /></Route>
+        <Route path='/soft-devproject' page={Home} exact><Home /></Route>
         <Route path='/archetype' page={Archetype}><Archetype /></Route>
         <Route path='/ruleBook' page={RuleBook}><RuleBook /></Route>
         <Route path='/search' page={Search}><Search /></Route>
