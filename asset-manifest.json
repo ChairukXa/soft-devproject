@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https//ChairukXa.github.io/soft-devproject/static/css/main.fd616aa7.css",
-    "main.js": "/https//ChairukXa.github.io/soft-devproject/static/js/main.4b007ec8.js",
-    "static/js/787.ec704a7a.chunk.js": "/https//ChairukXa.github.io/soft-devproject/static/js/787.ec704a7a.chunk.js",
-    "static/media/BG01.png": "/https//ChairukXa.github.io/soft-devproject/static/media/BG01.0afe30beca6b14d239c2.png",
-    "index.html": "/https//ChairukXa.github.io/soft-devproject/index.html",
-    "main.fd616aa7.css.map": "/https//ChairukXa.github.io/soft-devproject/static/css/main.fd616aa7.css.map",
-    "main.4b007ec8.js.map": "/https//ChairukXa.github.io/soft-devproject/static/js/main.4b007ec8.js.map",
-    "787.ec704a7a.chunk.js.map": "/https//ChairukXa.github.io/soft-devproject/static/js/787.ec704a7a.chunk.js.map"
+    "main.css": "/soft-devproject/static/css/main.d09bd986.css",
+    "main.js": "/soft-devproject/static/js/main.aaf980c6.js",
+    "static/js/787.ec704a7a.chunk.js": "/soft-devproject/static/js/787.ec704a7a.chunk.js",
+    "static/media/BG01.png": "/soft-devproject/static/media/BG01.0afe30beca6b14d239c2.png",
+    "index.html": "/soft-devproject/index.html",
+    "main.d09bd986.css.map": "/soft-devproject/static/css/main.d09bd986.css.map",
+    "main.aaf980c6.js.map": "/soft-devproject/static/js/main.aaf980c6.js.map",
+    "787.ec704a7a.chunk.js.map": "/soft-devproject/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd616aa7.css",
-    "static/js/main.4b007ec8.js"
+    "static/css/main.d09bd986.css",
+    "static/js/main.aaf980c6.js"
   ]
 }
