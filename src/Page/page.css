@@ -20,6 +20,10 @@ input{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 75%;
     font-size: 20px;
+    text-align: center;
+    border: solid rgb(98, 98, 98) 2px;
+    color: black;
+    border-radius: 15px;
 }
 
 .HomePageHeader{
