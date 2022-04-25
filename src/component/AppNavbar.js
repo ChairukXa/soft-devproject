@@ -11,7 +11,7 @@ const AppNavbar = () => {
       <div className='contrainer'> 
         <h3 className='logo'>YGO Community</h3> 
         <ul className={Moblie? "Nav-Links-moblie":'Nav-Links'} onClick={()=>setMoblie(false)}>
-          <Link to="/soft-devproject"><li>Home</li></Link>
+          <Link to="/"><li>Home</li></Link>
           <Link to="/rulebook"><li>RuleBook</li></Link>
           <Link to="/archetype"><li>Archetype</li></Link>
           <Link to="/search"><li>Search</li></Link>
