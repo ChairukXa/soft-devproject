@@ -42,7 +42,6 @@ input{
 .picContainer01 img{
     width: 600px;
     height: 300px;
-    transition: all 0.2s ease-in-out;
 }
 
 .pic_grid{
@@ -71,16 +70,4 @@ h2{
 .dialog02 {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.picContainer01 img:hover{
-    width: 605px;
-    height: 305px;
-    transition: all 0.2s ease-in-out;
-}
-
-.pic_grid img:hover{
-    width: 455px;
-    height: 255px;
-    transition: all 0.2s ease-in-out;
 }

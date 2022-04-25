@@ -1,6 +1,7 @@
 import React from 'react'
 import SpellTrapCarddetail from '../component/SpellTrapCarddetail'
 import '../component/Field.css'
+import '../component/GalleryGrids.css'
 import { Link, Redirect, Route, Switch } from 'react-router-dom';
 
 const DataInCards = {
@@ -24,7 +25,6 @@ function Dark_Magical_Circle (){
         <p className='MenuLink'>
           <Link to="/dark_magical_circle/cardDetail"><li>Card Detail</li></Link>
           <Link to="/dark_magical_circle/gallery"><li>Gallery</li></Link>
-          <Link to="/dark_magical_circle/comment"><li>Comment</li></Link>
         </p>
         <Switch>
           <Route path="/dark_magical_circle/cardDetail">
@@ -37,13 +37,9 @@ function Dark_Magical_Circle (){
               </div>
             </div>
           </Route>
-          <Route path="/dark_magical_circle/comment">
-            <h2>แสดงความคิดเห็น</h2>
-          </Route>
           <Route path="/dark_magical_circle">
-          <Redirect to="/dark_magical_circle/cardDetail"/>
+            <Redirect to="/dark_magical_circle/cardDetail"/>
             <Redirect to="/dark_magical_circle/gallery"/>
-            <Redirect to="/dark_magical_circle/comment"/>
           </Route>
         </Switch>
     </div>

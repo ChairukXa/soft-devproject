@@ -26,7 +26,6 @@ function Dark_Magician (){
         <p className='MenuLink'>
           <Link to="/darkmagician/cardDetail"><li>Card Detail</li></Link>
           <Link to="/darkmagician/gallery"><li>Gallery</li></Link>
-          <Link to="/darkmagician/comment"><li>Comment</li></Link>
         </p>
         <Switch>
           <Route path="/darkmagician/cardDetail">
@@ -46,13 +45,9 @@ function Dark_Magician (){
               </div>
             </div>
           </Route>
-          <Route path="/darkmagician/comment">
-            <h2>แสดงความคิดเห็น</h2>
-          </Route>
           <Route path="/darkmagician">
           <Redirect to="/darkmagician/cardDetail"/>
             <Redirect to="/darkmagician/gallery"/>
-            <Redirect to="/darkmagician/comment"/>
           </Route>
         </Switch>
     </div>

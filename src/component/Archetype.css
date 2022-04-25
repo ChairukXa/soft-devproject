@@ -27,9 +27,3 @@ img{
     width: 99%;
     transition: all 0.2s ease-in-out;
 }
-
-img:hover{
-    display: block;
-    width: 100%;
-    transition: all 0.2s ease-in-out;
-}

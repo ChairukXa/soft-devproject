@@ -1,6 +1,7 @@
 import React from 'react'
 import SpellTrapCarddetail from '../component/SpellTrapCarddetail'
 import '../component/Field.css'
+import '../component/GalleryGrids.css'
 import { Link, Redirect, Route, Switch } from 'react-router-dom';
 
 const DataInCards = {
@@ -24,7 +25,6 @@ function Eternal_Soul (){
         <p className='MenuLink'>
           <Link to="/eternal_soul/cardDetail"><li>Card Detail</li></Link>
           <Link to="/eternal_soul/gallery"><li>Gallery</li></Link>
-          <Link to="/eternal_soul/comment"><li>Comment</li></Link>
         </p>
         <Switch>
           <Route path="/eternal_soul/cardDetail">
@@ -37,13 +37,9 @@ function Eternal_Soul (){
               </div>
             </div>
           </Route>
-          <Route path="/eternal_soul/comment">
-            <h2>แสดงความคิดเห็น</h2>
-          </Route>
           <Route path="/eternal_soul">
           <Redirect to="/eternal_soul/cardDetail"/>
             <Redirect to="/eternal_soul/gallery"/>
-            <Redirect to="/eternal_soul/comment"/>
           </Route>
         </Switch>
     </div>
