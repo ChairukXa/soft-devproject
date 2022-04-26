@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:</n>
+In the project directory, you can run:
+
 (ก่อนที่จะทำการพิมพ์คำสั่งเพื่อรันโปรเจค กรุณาพิมพ์คำสั่ง npm install เพื่อติดตั้ง node_modules เพื่อใช้สำหรับรันโปรเจค)
 
 ### `npm start`
