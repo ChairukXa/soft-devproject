@@ -3,12 +3,12 @@ import "firebase/auth"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDxPY-gXh_w9S2QekCLbZAZZYm7y2zRIxU",
-  authDomain: "sign-in-104f5.firebaseapp.com",
-  projectId: "sign-in-104f5",
-  storageBucket: "sign-in-104f5.appspot.com",
-  messagingSenderId: "933097439437",
-  appId: "1:933097439437:web:8d15d780c499d6d9c02984"
+  apiKey: "AIzaSyCME4cmaAZOPX2BJYCXGjO-UJ8ZYQFe5mA",
+  authDomain: "ygo-project.firebaseapp.com",
+  projectId: "ygo-project",
+  storageBucket: "ygo-project.appspot.com",
+  messagingSenderId: "132032526161",
+  appId: "1:132032526161:web:ae2847ce0b012e5b61c570"
 };
 
 // Initialize Firebase
