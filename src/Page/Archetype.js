@@ -11,7 +11,7 @@ const Archetype = () => {
         <h1>Archetype Menu</h1>
       </div>
       <ul className='Arch-Links'>
-        <div>          
+        <div>
           <Link to="/*"><img src='./image/archetypebanner/Wait Banner.png' alt=''/></Link>
         </div>
         <div>         
